@@ -1,7 +1,7 @@
 # install-update-r-on-linux
 
-I use R daily for research and run some flavor of Ubuntu Linux or Linux Mint on my machines.
-The Ubuntu repositories (which Linux Mint also uses) typically have a fairly recent version of R, but I prefer to have the most recent version.<sup>1</sup>
+I use R daily for research and run some flavor of Ubuntu Linux or Linux Mint on my machines.<sup>1</sup>
+The Ubuntu repositories (which Linux Mint also uses) typically have a fairly recent version of R, but I prefer to have the most recent version.
 What follows is a guide to install/upgrade to the most recent version of R on Ubuntu (18.04) or Mint (19).
 I then include details regarding system dependencies for some popular R packages.
 Parts of this guide were written in response to [this Stack Overflow question](https://stackoverflow.com/questions/46214061/how-to-upgrade-r-in-linux/).
