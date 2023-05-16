@@ -56,6 +56,26 @@ You may also want the following system "dependencies" for `git2r`, but it isn't 
 sudo apt install libgit2-dev libssh2-1-dev
 ```
 
+### If you're installing `devtools` on Ubuntu WSL2 these additional libraries are needed
+
+Dependencies for  `systemfonts` package
+
+```bash
+sudo apt install libfontconfig1-dev
+```
+
+Dependencies for `textshaping` package
+
+```bash
+sudo apt install libharfbuzz-dev libfribidi-dev
+```
+
+Dependencies for `ragg` package
+
+```bash
+sudo apt install libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev
+```
+
 -----
 
 <sup>1</sup> This statement is no longer quite true.
